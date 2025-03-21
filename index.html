@@ -5,9 +5,24 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./css/index.css" />
-        <title>JS starter</title>
+        <title>Flights</title>
     </head>
     <body>
+        <section id="main">
+            <div id="flight-pic">
+                <img src="Ascend-Photos-airplanes-2.jpg" alt="flight-pic">
+                <!--<h1>Flight Schedules</h1>-->
+            </div>
+            <div id="btns">
+                <button id="show-btn">Show Timetable</button>
+                <select id="departure-select">
+                    <option value="earliest">Earliest Departure</option>
+                    <option value="latest">Latest Departure</option>
+                </select>
+                <button id="refresh-btn">Refresh</button>
+            </div>
+        </section>
+
        <script type="module" src="./src/index.js"></script>
     </body>
 </html>
